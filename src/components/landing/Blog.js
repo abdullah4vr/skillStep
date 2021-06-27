@@ -14,10 +14,10 @@ import FeaturedPost from './FeaturedPost';
 import Main from '../../Main';
 import Sidebar from '../../Sidebar';
 import Footer from '../../Footer';
-import LandingImage from '../../resources/landing_picture.png';
+import LandingImage from '../../resources/skillClassroom.png';
 import ClassroomImage from '../../resources/landing_picture.png';
-import ContentImage from '../../resources/content.jpeg';
-import SkillImage from '../../resources/new_skills.jpeg';
+import ContentImage from '../../resources/content.png';
+import SkillImage from '../../resources/new_skills.png';
 import {useRef} from 'react';
 
 const useStyles = makeStyles((theme) => ({

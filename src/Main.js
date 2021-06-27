@@ -8,7 +8,7 @@ import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import location from './resources/location.jpeg';
+import location from './resources/location.png';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import PhoneIcon from '@material-ui/icons/Phone';
 import BusinessIcon from '@material-ui/icons/Business';
