@@ -4,7 +4,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import FacebookIcon from '@material-ui/icons/Facebook';
-import TwitterIcon from '@material-ui/icons/Twitter';
+import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Divider from '@material-ui/core/Divider';
 import Header from '../../Header';
@@ -80,9 +80,9 @@ const sidebar = {
     "Learning is easier when you have an excellent teacher. That's why most of our educators have achieved an advanced degree in their field.We are continuously looking for talented Subject Matter Experts who can work on our various types of projects such as Textbook Solution, Q&A Solution, Topic Writing, Video Solution, PowerPoint Presentation, etc. for K-12 and above level on their subject of expertise.",
 
   social: [
-    { name: 'Twitter', icon: TwitterIcon },
-    { name: 'Facebook', icon: FacebookIcon },
-    { name: 'LinkedIn', icon: LinkedInIcon },
+    { name: 'Instagram', icon: InstagramIcon ,url : 'https://www.instagram.com/skillstepacademy/'},
+    { name: 'Facebook', icon: FacebookIcon,url : 'https://www.facebook.com/skillstepacademy/' },
+    { name: 'LinkedIn', icon: LinkedInIcon,url : 'https://www.linkedin.com/company/skill-step-academy' },
   ],
 };
 

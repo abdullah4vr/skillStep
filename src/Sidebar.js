@@ -29,13 +29,13 @@ function Sidebar(props) {
           {title}
         </Typography>
         <Typography>{description}</Typography>
-        <Button color='primary' href={formLink}>Apply Now!!!</Button>
+        <Button  href={formLink} style={{backgroundColor:'blue',color:'white'}}>Apply Now!!!</Button>
       </Paper>
       <Typography variant="h6" gutterBottom className={classes.sidebarSection}>
         Social
       </Typography>
       {social.map((network) => (
-        <Link display="block" variant="body1" href="#" key={network.name}>
+        <Link display="block" variant="body1" href={network.url} key={network.name}>
           <Grid container direction="row" spacing={1} alignItems="center">
             <Grid item>
               <network.icon />
