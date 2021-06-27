@@ -14,10 +14,10 @@ import FeaturedPost from './FeaturedPost';
 import Main from '../../Main';
 import Sidebar from '../../Sidebar';
 import Footer from '../../Footer';
-import landingImage from '../../resources/skillClassroom.jpeg';
-import classroomImage from '../../resources/landing_picture.png';
-import contentImage from '../../resources/content.jpeg';
-import skillImage from '../../resources/new_skills.jpeg';
+import LandingImage from '../../resources/skillClassroom.jpeg';
+import ClassroomImage from '../../resources/landing_picture.png';
+import ContentImage from '../../resources/content.jpeg';
+import SkillImage from '../../resources/new_skills.jpeg';
 import {useRef} from 'react';
 
 const useStyles = makeStyles((theme) => ({
@@ -39,7 +39,7 @@ const mainFeaturedPost = {
   title: 'Welcome',
   description:
     "Building a community of lifelong learners. Skill Step Academy believes knowledge should be cheap and available to all",
-  image: landingImage,
+  image: LandingImage,
   imageText: 'main image description',
   linkText: 'Get to know us...',
 };
@@ -50,7 +50,7 @@ const featuredPosts = [
     date: 'Nov 12',
     description:
       'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    image: classroomImage,
+    image: ClassroomImage,
     imageText: 'Image Text',
   },
   {
@@ -58,7 +58,7 @@ const featuredPosts = [
     date: 'Nov 11',
     description:
       'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    image: skillImage,
+    image: SkillImage,
     imageText: 'Image Text',
   },
   {
@@ -66,7 +66,7 @@ const featuredPosts = [
     date: 'Nov 11',
     description:
       'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    image: contentImage,
+    image: ContentImage,
     imageText: 'Image Text',
   },
 ];
