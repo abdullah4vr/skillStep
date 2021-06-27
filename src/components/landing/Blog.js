@@ -14,7 +14,7 @@ import FeaturedPost from './FeaturedPost';
 import Main from '../../Main';
 import Sidebar from '../../Sidebar';
 import Footer from '../../Footer';
-import LandingImage from '../../resources/skillClassroom.jpeg';
+import LandingImage from '../../resources/landing_picture.png';
 import ClassroomImage from '../../resources/landing_picture.png';
 import ContentImage from '../../resources/content.jpeg';
 import SkillImage from '../../resources/new_skills.jpeg';
